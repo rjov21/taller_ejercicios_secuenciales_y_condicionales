@@ -24,3 +24,8 @@ bonificacion = 80000 * cantidad_hijos
 print(f'el valor de la bonificacion es: {bonificacion}')
 monto_total = sueldo + bonificacion
 print(f'el monto total a pagar al empleado es: {monto_total}')
+
+# ejercicio 3
+monto_ahorrado = int(input('ingrese el monto ahorarrado: '))
+monto_final = monto_ahorrado * 1.5
+print(f'el monto final es: {monto_final}')
