@@ -110,3 +110,8 @@ valor_viaje = personas * 25000
 valor_iva = valor_viaje * 0.12
 valor_final = valor_viaje + valor_iva
 print(f'el valor a pagar por el viaje es: {valor_final}')
+
+# ejercicio 14
+dias = int(input('ingrese los dias de estadia: '))
+habitacion = dias * 200000
+print(f'el saldo final de la estadia es: {habitacion}')
