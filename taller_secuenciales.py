@@ -88,3 +88,12 @@ valor_rollo = fotos * 1500
 valor_iva = valor_rollo * 0.16
 valor_final = valor_rollo + valor_iva
 print(f'el valor completo del revelado es: {valor_final}')
+
+# ejercicio 11
+presupuesto = int(input('ingrese el presupuesto: '))
+ginecologia = presupuesto * 0.4
+traumatologia = presupuesto * 0.3
+pediatria = presupuesto * 0.3
+print(f'el presupuesto para ginecologia es: {ginecologia}')
+print(f'el presupuesto para traumatologia es: {traumatologia}')
+print(f'el presupuesto para pediatria es: {pediatria}')
