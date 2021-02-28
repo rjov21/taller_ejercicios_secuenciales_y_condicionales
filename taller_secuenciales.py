@@ -81,3 +81,10 @@ monto_inicial = int(input('ingrese el monto inicial: '))
 monto_final = int(input('ingrese el monto final: '))
 costo_llamada = monto_final - monto_inicial
 print(f'el costo de la llamada es: {costo_llamada}')
+
+# ejercicio 10
+fotos = int(input('ingrese el numero de fotos del rollo: '))
+valor_rollo = fotos * 1500
+valor_iva = valor_rollo * 0.16
+valor_final = valor_rollo + valor_iva
+print(f'el valor completo del revelado es: {valor_final}')
