@@ -97,3 +97,9 @@ pediatria = presupuesto * 0.3
 print(f'el presupuesto para ginecologia es: {ginecologia}')
 print(f'el presupuesto para traumatologia es: {traumatologia}')
 print(f'el presupuesto para pediatria es: {pediatria}')
+
+# ejercicio 12
+peliculas = int(input('ingrese las peliculas alquiladas: '))
+dias = int(input('ingrese los dias  que alquilo la pelicula: '))
+monto = dias * 1500
+print(f'el monto a pagar es: {monto}')
