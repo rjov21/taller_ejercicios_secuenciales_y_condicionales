@@ -115,3 +115,12 @@ print(f'el valor a pagar por el viaje es: {valor_final}')
 dias = int(input('ingrese los dias de estadia: '))
 habitacion = dias * 200000
 print(f'el saldo final de la estadia es: {habitacion}')
+
+# ejercicio 15
+prestamo = int(input('ingrese el monto del prestamo: '))
+monto_total = (prestamo * 0.24) + prestamo
+especiales = (monto_total / 2) / 4
+ordinarias = (monto_total / 2) / 20
+print(f'el monto total del prestamo es: {monto_total}')
+print(f'el valor de las cuotas ordinarias es: {especiales}')
+print(f'el valor de las cuotas ordinarias es: {ordinarias}')
