@@ -50,3 +50,13 @@ print(f'el valor del descuento por seguro forzoso es: {seguro_forzoso}')
 print(f'el valor del descuento por caja ahorro es: {caja_ahorro}')
 monto_final = politica_publica + seguro_social + seguro_forzoso + caja_ahorro + sueldo
 print(f'el monto final a pagar al empleado es: {monto_final}')
+
+# ejercicio 6
+palabras = int(input('ingrese la cantidad de palabras: '))
+centimetros = int(input('ingrese la cantidad de centimetros: '))
+colores = int(input('ingrese la cantidad de colores: '))
+valor_palabras = palabras * 20000
+valor_centimetros = centimetros * 15000
+valor_colores = colores * 25000
+valor_final = valor_palabras + valor_centimetros + valor_colores
+print(f'el monto a pagar es: {valor_final}')
