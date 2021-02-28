@@ -103,3 +103,10 @@ peliculas = int(input('ingrese las peliculas alquiladas: '))
 dias = int(input('ingrese los dias  que alquilo la pelicula: '))
 monto = dias * 1500
 print(f'el monto a pagar es: {monto}')
+
+# ejercicio 13
+personas = int(input('ingrese el numero de personas de la familia: '))
+valor_viaje = personas * 25000
+valor_iva = valor_viaje * 0.12
+valor_final = valor_viaje + valor_iva
+print(f'el valor a pagar por el viaje es: {valor_final}')
