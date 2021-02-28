@@ -14,3 +14,13 @@ else:
     descuento = (valor * cantidad) * 0.1
 monto_final = (valor * cantidad) - descuento
 print(f'el monto final a pagar es: {monto_final}')
+
+# ejercicio 2
+numero = int(input('ingrese el numero: '))
+total_compra = int(input('ingrese el valor total de la compra'))
+if numero < 74:
+    descuento = (total_compra * 0.15)
+else:
+    descuento = (total_compra * 0.2)
+monto_final = total_compra - descuento
+print(f'el valor total a pagar por la compra es: {monto_final}')
