@@ -16,3 +16,11 @@ cantidad_invertida_persona3 = (persona3 * 100) / cantidad_total
 print(f'el % invertido por persona1 es: {cantidad_invertida_persona1}%')
 print(f'el % invertido por persona2 es: {cantidad_invertida_persona2}%')
 print(f'el % invertido por persona3 es: {cantidad_invertida_persona3}%')
+
+# ejercicio 2
+sueldo = int(input('ingrese el sueldo del empleado: '))
+cantidad_hijos = int(input('ingrese la cantidad de hijos del empleado: '))
+bonificacion = 80000 * cantidad_hijos
+print(f'el valor de la bonificacion es: {bonificacion}')
+monto_total = sueldo + bonificacion
+print(f'el monto total a pagar al empleado es: {monto_total}')
