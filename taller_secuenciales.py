@@ -67,3 +67,11 @@ sueldo = int(input('ingrese el sueldo del empleado: '))
 bonificacion = años * 120000
 sueldo_final = bonificacion + sueldo
 print(f'el sueldo final del empleado es: {sueldo_final}')
+
+# ejercicio 8
+horas = int(input('ingrese las horas del profesor: '))
+monto = horas * 20000
+descuento = monto * 0.5
+monto_final = monto + descuento
+print(f'el descuento a pagar al profesor es: {descuento}')
+print(f'el monto a pagar al profesor es: {monto_final}')
