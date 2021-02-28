@@ -37,3 +37,16 @@ cuota_inicial = valor * 0.35
 cuotas = (valor - cuota_inicial) / 12
 print(f'el valor de la cuota inicial es: {cuota_inicial}')
 print(f'el valor de las cuotas es: {cuotas}')
+
+# ejercicio 5
+sueldo = int(input('ingrese el sueldo del empleado: '))
+politica_publica = sueldo * 0.1
+seguro_social = sueldo * 0.4
+seguro_forzoso = sueldo * 0.005
+caja_ahorro = sueldo * 0.5
+print(f'el valor del descuento por politica publica es: {politica_publica}')
+print(f'el valor del descuento por seguro social es: {seguro_social}')
+print(f'el valor del descuento por seguro forzoso es: {seguro_forzoso}')
+print(f'el valor del descuento por caja ahorro es: {caja_ahorro}')
+monto_final = politica_publica + seguro_social + seguro_forzoso + caja_ahorro + sueldo
+print(f'el monto final a pagar al empleado es: {monto_final}')
