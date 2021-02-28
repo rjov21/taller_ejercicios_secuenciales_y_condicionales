@@ -60,3 +60,10 @@ valor_centimetros = centimetros * 15000
 valor_colores = colores * 25000
 valor_final = valor_palabras + valor_centimetros + valor_colores
 print(f'el monto a pagar es: {valor_final}')
+
+# ejercicio 7
+años = int(input('ingrese los años del empleado: '))
+sueldo = int(input('ingrese el sueldo del empleado: '))
+bonificacion = años * 120000
+sueldo_final = bonificacion + sueldo
+print(f'el sueldo final del empleado es: {sueldo_final}')
