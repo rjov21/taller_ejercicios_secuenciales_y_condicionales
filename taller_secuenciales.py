@@ -75,3 +75,9 @@ descuento = monto * 0.5
 monto_final = monto + descuento
 print(f'el descuento a pagar al profesor es: {descuento}')
 print(f'el monto a pagar al profesor es: {monto_final}')
+
+# ejercicio 9
+monto_inicial = int(input('ingrese el monto inicial: '))
+monto_final = int(input('ingrese el monto final: '))
+costo_llamada = monto_final - monto_inicial
+print(f'el costo de la llamada es: {costo_llamada}')
