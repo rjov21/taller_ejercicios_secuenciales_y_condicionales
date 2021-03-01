@@ -67,3 +67,21 @@ elif marca == 'NOSY':
 else:
     valor_final = valor + (valor * 0.16)
 print(f'el valor final a pagar por el producto es: {valor_final}')
+
+# ejercicio 8
+monto_total = int(input('ingrese el monto total: '))
+if monto_total > 500000:
+    inversion = monto_total * 0.55
+    banco = monto_total * 0.3
+    fabricante = monto_total * 0.15
+    intereses = fabricante * 0.2
+else:
+    inversion = monto_total * 0.7
+    fabricante = monto_total * 0.3
+    intereses = fabricante * 0.2
+if monto_total > 500000:
+        print(f'el valor del prestamo es: {banco}')
+print(f'el valor a invertir es: {inversion}')
+print(f'el valor del credito es: {fabricante}')
+print(f'el valor de los intereses es: {intereses}')
+ 
