@@ -44,3 +44,15 @@ if devaluacion < incremento:
     print('debe comprar el carro')
 else:
     print('debe comprar el terreno')
+
+# ejercicio 6
+cantidad = int(input('ingrese la cantidad de computadoes: '))
+valor = 11000
+if cantidad < 5:
+    descuento = (valor * cantidad) * 0.1
+elif cantidad >= 5 and cantidad < 10:
+    descuento = (valor * cantidad) * 0.2
+else:
+    (valor * cantidad) * 0.4
+valor_final = (valor * cantidad) - descuento
+print(f'el valor final a pagar es: {valor_final}')
