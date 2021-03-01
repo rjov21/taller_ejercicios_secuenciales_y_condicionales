@@ -85,3 +85,14 @@ print(f'el valor a invertir es: {inversion}')
 print(f'el valor del credito es: {fabricante}')
 print(f'el valor de los intereses es: {intereses}')
  
+# ejercicio 9
+numero1 = int(input('ingrese un numero: '))
+numero2 = int(input('ingrese un numero: '))
+if numero1 == numero2:
+    operacion = numero1 * numero2
+elif numero1 > numero2:
+    operacion = numero1 - numero2
+else:
+    operacion = numero1 + numero2
+print(f'el resultado es: {operacion}')
+
