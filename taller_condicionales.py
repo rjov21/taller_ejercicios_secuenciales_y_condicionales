@@ -34,3 +34,13 @@ if promedio_puntos >170:
 else:
     print('no habra perdida')
 print(f'la fabrica perdera {perdida} en la semana ')
+
+# ejercicio 5
+valor_carro = int(input('ingrese el valor del carro: '))
+valor_terreno = valor_carro
+devaluacion = valor_carro * 0.3
+incremento = valor_terreno * 0.45
+if devaluacion < incremento:
+    print('debe comprar el carro')
+else:
+    print('debe comprar el terreno')
