@@ -56,3 +56,14 @@ else:
     (valor * cantidad) * 0.4
 valor_final = (valor * cantidad) - descuento
 print(f'el valor final a pagar es: {valor_final}')
+
+# ejercicio 7
+valor = int(input('ingrese el valor del producto: '))
+marca = input('ingrese la marca del producto: ')
+if valor >= 2000:
+    valor_final = (valor - (valor * 0.1)) + (valor * 0.16)
+elif marca == 'NOSY':
+    valor_final = (valor - (valor * 0.05)) + (valor * 0.16)
+else:
+    valor_final = valor + (valor * 0.16)
+print(f'el valor final a pagar por el producto es: {valor_final}')
